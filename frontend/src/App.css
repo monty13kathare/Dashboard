@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat",sans-serif;
+  max-width: 1920px;
+  max-height: 1080px;
+}
+
+
+/*  Material UI */
+
+ /*pagination*/
+
+ .css-wjh20t-MuiPagination-ul {
+padding: 0 0 0 15px !important;
+ }
+ .css-wjh20t-MuiPagination-ul li .MuiPaginationItem-outlined:active .css-8je8zh-MuiTouchRipple-root{
+  background-color: rgb(27, 54, 188) !important;
+  color: #fff !important;
+  border-radius: 7px !important;
+ }
+ 
+.MuiPagination-ul li button.MuiPaginationItem-previousNext{
+  display: none;
+}
+.MuiPagination-ul li button.MuiButtonBase-root{
+  background:transparent;
+  color: #000;
+  border: none;
+  outline: none;
+}
+
+/*  Table Cell  */
+
+.css-1q1u3t4-MuiTableRow-root th{
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight: 500;
+  background-color: #dcdfeb;
+  line-height: 1rem;
+}
+
+.css-apqrd9-MuiTableBody-root .css-34nofg-MuiTableRow-root td{
+  padding: 5px;
+  font-size: 10px;
+  background-color: #fff;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.4) !important;
+  line-height: 5px;
+  color: #000;
+  text-align: start;
+}
+
+
+
+/* Stepper*/
+

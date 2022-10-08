@@ -1,0 +1,74 @@
+.Payment{
+    margin-top: 20px;
+    background-color: #fff;
+    /* border-radius: 10px; */
+}
+.stepper2{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(86, 83, 83);
+}
+.stepper2 .steps2{
+    width: 100%;
+    display: flex;
+    height: 40px;
+}
+.steps2 .step1 i{
+    color: rgb(27, 133, 80);
+   
+}
+.steps2 .step2{
+    margin-left: 0px !important;
+    color: #000;
+    border-top-left-radius: 6px;
+    border-bottom: 2px solid blue;
+   
+}
+.steps2 .s1{
+    padding: 0 1.6rem;
+    margin: 0 10px;
+     display: flex;
+     align-items: center;
+     justify-content: start;
+}
+.InputField form .inp1{
+    width: 100%;
+}
+.InputField form #slc2{
+    width: 30%;
+}
+.InputField form .inp2{
+    width: 16%;
+}
+.InputField form .totalAmt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    width: 48%;
+    height: 40px;
+    /* background-color: red; */
+    border-radius: 6px;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.InputField .totalAmt span{
+    color: #000;
+    padding-right: 3px;
+}
+.InputField .totalAmt input{
+    border: none;
+    outline: none;
+}
+.Pay{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    /* justify-content: space-between; */
+}
+.Pay .payStatus{
+    margin-left: 180px;
+}
+

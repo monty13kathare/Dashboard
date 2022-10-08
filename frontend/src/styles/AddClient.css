@@ -1,0 +1,117 @@
+.CreateProfile{
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+    position: relative;
+    /* background-color: rebeccapurple; */
+    border-radius: 6px;
+}
+.stepper1{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(86, 83, 83);
+}
+.stepper1 .steps1{
+    width: 100%;
+    display: flex;
+    height: 40px;
+}
+.steps1 .step1{
+    margin-left: 0px !important;
+    color: #000;
+    border-top-left-radius: 6px;
+    border-bottom: 2px solid blue;
+   
+}
+.steps1 .s1{
+    padding: 0 1.6rem;
+    margin: 0 10px;
+     display: flex;
+     align-items: center;
+     justify-content: start;
+}
+.titleName{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 18px;
+}
+.titleName p{
+    font-size: 14px;
+    color: gray;
+    padding: 5px 0;
+}
+.CreateLogo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.CreateLogo .logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    align-items: center;
+    position: relative;
+    margin: 5px 10px;
+}
+.logo i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: gray;
+    font-weight: 800;
+}
+.InputField{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.InputField form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.InputField form input{
+    padding: 10px;
+    width: 48%;
+    height: 35px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-weight: 500;
+}
+.InputField form select{
+    padding: 10px;
+    width: 48%;
+    height: auto;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-weight: 500;
+}
+.InputField form #city{
+    padding: 10px;
+    width: 36.5%;
+    height: 35px;
+    /* margin: 10px; */
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+.InputField form .pin{
+    padding: 10px;
+    width: 10%;
+    height: 35px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+.InputField form input:focus{
+    outline: none;
+}

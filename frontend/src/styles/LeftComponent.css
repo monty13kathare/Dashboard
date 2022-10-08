@@ -1,0 +1,116 @@
+.leftContent{
+    max-width: 18%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    padding: 10px;
+}
+.t1{
+    font-size: 18px;
+    font-family: 400;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.search{
+    /* background-color: yellow; */
+    padding: 5px;
+    border-radius: 18px;
+    border: 1px solid rgb(183, 180, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search i{
+    padding: 0 5px;
+    font-size: 13px;
+    color: gray;
+}
+.search input{
+    height: 23px;
+    width: 200px;
+    border: none;
+    outline: none;
+    /* background-color: yellow; */
+}
+.t2{
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+.btn{
+    margin: 5px;
+    padding: 8px 0 8px 12px;
+    font-size: 13px;
+    /* background-color: blue; */
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.b1{
+font-weight: 500;
+}
+.b2{
+    background: blue;
+    color: #fff;
+    font-weight: 500;
+}
+.leftContent .profile{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border-top: 1px solid rgb(206, 201, 201);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* background-color: rebeccapurple; */
+}
+.profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 3px;
+    border: 1px solid rgb(209, 202, 202);
+}
+.profile span{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    left: 30px;
+    bottom: 12px;
+}
+.profile .name{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+}
+.name h4{
+    padding-left: 6px;
+}
+.name p{
+    font-weight: 500;
+}
+.profile i{
+    font-size: 11px;
+    margin: 0 6px 0 0;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    cursor: pointer;
+    color: rgb(58, 57, 57);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+.login{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: 100vh;
+    align-items: center;
+}
+.login .left{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+/* background-color: rebeccapurple; */
+height: 80%;
+}
+.left .content{
+    margin-top: 15%;
+    /* background-color: rgb(51, 178, 194); */
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+form .input1{
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.input1 input{
+    padding: 7px;
+    margin: 5px;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.input1 i{
+    padding-left: 10px;
+    color: gray;
+}
+
+form button{
+    padding: 10px;
+    margin: 8px;
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid blue;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.left .footer{
+   
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ .footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 25px;
+    left: 32%;
+    font-size: 14px;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+    font-size: 14px;
+}
+
+
+
+
+
+/* right css */
+
+.login .right{
+    background-color: #1334B3;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+.right .box{
+    width: 550px;
+    height: 360px;
+    /* background-color: aqua; */
+    /* border: 1px solid rgb(172, 46, 46); */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.box .content{
+    border-bottom: 440px solid rgb(255, 252, 252);
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    height: 440px;
+    width: 340px;
+    transform: rotate(90deg);
+   position: absolute;
+border-radius:  10px;
+z-index: 1;
+}
+.box .box2{
+    border-bottom: 550px solid #FFFFFF;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    height: 440px;
+    width: 340px;
+    transform: rotate(-90deg);
+   position: absolute;
+opacity: 0.05;
+border-radius: 8px;
+
+}
+.right .desc{
+    margin-top: 20px;
+    width: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.desc h2{
+    font-size: 20px;
+}
+.desc p{
+    font-size: 11px;
+    text-align: center;
+}
